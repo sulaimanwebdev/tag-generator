@@ -60,6 +60,7 @@ inVal = document.getElementById('email').value = "";
          container.insertBefore(tag, posi);
   
      
+
        
     }
     
@@ -152,17 +153,23 @@ let allTags = document.querySelectorAll('.listTag1');
 
 document.querySelector(".c1Tag").addEventListener('click', () =>{
     document.querySelector('.c1').lastChild.style.display = 'none';
+    document.querySelector('.c1').lastChild.classList.toggle('tickToggle');
+
 
 })
 
 document.querySelector(".c2Tag").addEventListener('click', () =>{
     document.querySelector('.c2').lastChild.style.display = 'none';
+    document.querySelector('.c2').lastChild.classList.toggle('tickToggle');
+
 
 })
 
 
 document.querySelector(".c3Tag").addEventListener('click', () =>{
     document.querySelector('.c3').lastChild.style.display = 'none';
+    document.querySelector('.c3').lastChild.classList.toggle('tickToggle');
+
 
 })
 
@@ -170,5 +177,7 @@ document.querySelector(".c3Tag").addEventListener('click', () =>{
 
 document.querySelector(".c4Tag").addEventListener('click', () =>{
     document.querySelector('.c4').lastChild.style.display = 'none';
+    document.querySelector('.c4').lastChild.classList.toggle('tickToggle');
+
 
 })
