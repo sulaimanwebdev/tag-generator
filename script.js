@@ -154,6 +154,7 @@ let allTags = document.querySelectorAll('.listTag1');
 document.querySelector(".c1Tag").addEventListener('click', () =>{
     document.querySelector('.c1').lastChild.style.display = 'none';
     document.querySelector('.c1').lastChild.classList.toggle('tickToggle');
+    document.getElementById("vehicle1").checked = false;
 
 
 })
@@ -161,6 +162,8 @@ document.querySelector(".c1Tag").addEventListener('click', () =>{
 document.querySelector(".c2Tag").addEventListener('click', () =>{
     document.querySelector('.c2').lastChild.style.display = 'none';
     document.querySelector('.c2').lastChild.classList.toggle('tickToggle');
+    document.getElementById("vehicle2").checked = false;
+
 
 
 })
@@ -169,6 +172,8 @@ document.querySelector(".c2Tag").addEventListener('click', () =>{
 document.querySelector(".c3Tag").addEventListener('click', () =>{
     document.querySelector('.c3').lastChild.style.display = 'none';
     document.querySelector('.c3').lastChild.classList.toggle('tickToggle');
+    document.getElementById("vehicle3").checked = false;
+
 
 
 })
@@ -178,6 +183,8 @@ document.querySelector(".c3Tag").addEventListener('click', () =>{
 document.querySelector(".c4Tag").addEventListener('click', () =>{
     document.querySelector('.c4').lastChild.style.display = 'none';
     document.querySelector('.c4').lastChild.classList.toggle('tickToggle');
+    document.getElementById("vehicle4").checked = false;
+
 
 
 })
